@@ -4,7 +4,7 @@
 
 // Straightforward Loop with if, else if conditionals
 
-for(let i = 1; i <= 100; i++) {
+for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         console.log("FizzBuzz");
     } else if (i % 3 === 0) {
@@ -18,11 +18,11 @@ for(let i = 1; i <= 100; i++) {
 
 // Organizing with const declarations first
 
-for(let i = 1; i <= 100; i++) {
+for (let i = 1; i <= 100; i++) {
     const FizzBuzz = i % 3 === 0 && i % 5 === 0;
     const Fizz = i % 3 === 0;
     const Buzz = i % 5 === 0;
-    
+
     if (FizzBuzz) {
         console.log("FizzBuzz");
     } else if (Fizz) {
@@ -31,6 +31,6 @@ for(let i = 1; i <= 100; i++) {
         console.log("Buzz")
     } else {
         console.log(i);
-    }    
+    }
 }
 
